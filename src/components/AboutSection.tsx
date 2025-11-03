@@ -6,23 +6,23 @@ import { GithubIcon, LinkedinIcon, MailIcon } from 'lucide-react';
 const AboutSection = () => {
   const team = [
     {
-      name: 'Dr. Maria Santos',
-      role: 'Lead Researcher',
-      description: 'Seismologist specializing in Philippine tectonic activity with 15 years of field research experience.',
+      name: 'Juan Marco A. Peralta',
+      role: 'Web Developer',
+      description: '{insert desc.}',
       avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=Maria',
-      initials: 'MS',
+      initials: 'JMAP',
       links: {
-        github: 'https://github.com',
-        linkedin: 'https://linkedin.com',
-        email: 'mailto:maria@example.com',
+        github: 'https://github.com/wamaco',
+        linkedin: 'https://www.linkedin.com/in/wamaco16/',
+        email: 'japeralta2@up.edu.ph',
       },
     },
     {
-      name: 'Juan dela Cruz',
-      role: 'Data Analyst',
-      description: 'Statistical modeling expert focused on disaster risk reduction and climate resilience analytics.',
+      name: 'Samantha Mikaylah C. Reyes',
+      role: 'Resident Nerd',
+      description: '{insert desc.}',
       avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=Juan',
-      initials: 'JC',
+      initials: 'SMCR',
       links: {
         github: 'https://github.com',
         linkedin: 'https://linkedin.com',
@@ -30,11 +30,11 @@ const AboutSection = () => {
       },
     },
     {
-      name: 'Sofia Reyes',
-      role: 'Community Liaison',
-      description: 'Social scientist bridging research and community action for disaster preparedness programs.',
+      name: 'Syrelle Joy P. Reforma',
+      role: 'Logistics Head',
+      description: '{insert desc.}',
       avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=Sofia',
-      initials: 'SR',
+      initials: 'SJPR',
       links: {
         github: 'https://github.com',
         linkedin: 'https://linkedin.com',
@@ -122,3 +122,4 @@ const AboutSection = () => {
 };
 
 export default AboutSection;
+
