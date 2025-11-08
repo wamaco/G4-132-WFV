@@ -7,8 +7,8 @@ const AboutSection = () => {
   const team = [
     {
       name: 'Juan Marco A. Peralta',
-      role: 'Web Developer',
-      description: '{insert desc.}',
+      role: 'Data Scientist | Web Developer',
+      description: "Hi I'm Marco! I am currently a 3rd year BS Computer Science college student in UP Diliman.",
       avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=Maria',
       initials: 'JMAP',
       links: {
@@ -19,8 +19,8 @@ const AboutSection = () => {
     },
     {
       name: 'Samantha Mikaylah C. Reyes',
-      role: 'Resident Nerd',
-      description: '{insert desc.}',
+      role: 'Data Scientist | Web Developer',
+      description: "Hi I'm Sam! I am currently a 3rd year BS Computer Science college student in UP Diliman.",
       avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=Juan',
       initials: 'SMCR',
       links: {
@@ -31,8 +31,8 @@ const AboutSection = () => {
     },
     {
       name: 'Syrelle Joy P. Reforma',
-      role: 'Logistics Head',
-      description: '{insert desc.}',
+      role: 'Data Scientist | Web Developer',
+      description: "Hi I'm Syrelle! I am currently a 3rd year BS Computer Science college student in UP Diliman.",
       avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=Sofia',
       initials: 'SJPR',
       links: {

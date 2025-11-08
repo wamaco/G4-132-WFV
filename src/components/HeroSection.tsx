@@ -41,7 +41,7 @@ const HeroSection = () => {
           transition={{ duration: 0.8, delay: 0.2, ease: 'easeOut' }}
           className="text-lg sm:text-xl lg:text-2xl text-neutral font-light mb-12"
         >
-          A Decade of Earthquakes & Resilience in the Philippines
+          Biennial Showcase of Earthquakes and Resilience in the Philippines 2024–2025
         </motion.p>
 
         <motion.button

@@ -92,10 +92,28 @@ const MethodsSection = () => {
               Hypothesis Testing
             </h3>
             <p className="text-card-foreground font-light leading-relaxed mb-4">
-              Statistical analysis employed chi-square tests for temporal patterns, Pearson correlation for magnitude-damage relationships, and regression analysis for resilience factors. All tests maintained α = 0.05 significance level.
+            To validate our hypotheses, we first tested the data for normality using Q–Q plots.
+            Since the dataset showed non-normal behavior, a non-parametric approach was applied
+            using <strong>Spearman’s Rank Correlation Coefficient</strong>.
             </p>
-            <p className="text-card-foreground font-light leading-relaxed">
-              Results indicate significant seasonal variation in earthquake frequency (p &lt; 0.01), strong positive correlation between magnitude and urban infrastructure damage (r = 0.78, p &lt; 0.001), and measurable impact of preparedness programs on recovery times (β = -0.42, p &lt; 0.01).
+
+            <p className="text-card-foreground font-light leading-relaxed mb-4">
+            Results showed a strong positive correlation (<strong>ρ = 0.8336</strong>) between
+            average earthquake magnitudes (2024–2025) and regional Seismic Risk Potential (SRP),
+            with a <strong>p-value = 6.03 × 10⁻⁵</strong>, which is below the 0.05 significance level.
+            This led to the <strong>rejection of the null hypothesis</strong>.
+            </p>
+
+            <p className="text-card-foreground font-light leading-relaxed mb-4">
+            In short, some regions consistently face higher seismic risks,
+            supporting the idea that earthquakes in the Philippines are not random but region-specific.
+            These insights can inform <strong>Disaster Risk Reduction (DRR)</strong> priorities
+            and contribute to <strong>SDG 13: Climate Action</strong>.
+            </p>
+
+            <p className="text-muted-foreground text-sm italic">
+            H₀: No significant relationship between earthquake trends and SRP.<br />
+            H₁: A significant relationship exists, indicating regional differences in seismic risk.
             </p>
           </Card>
         </motion.div>
