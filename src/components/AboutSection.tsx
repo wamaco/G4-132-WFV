@@ -4,7 +4,7 @@ import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
 import { GithubIcon, LinkedinIcon, MailIcon } from 'lucide-react';
 import smcrImage from '@/components/smcr.jpg';
 import jmapImage from '@/components/jmap.jpg';
-import sjprImage from '@/components/sjpr.jpg';
+import sjprImage from '@/components/sjpr.jpeg';
 
 const AboutSection = () => {
   const team = [
@@ -125,4 +125,5 @@ const AboutSection = () => {
 };
 
 export default AboutSection;
+
 
