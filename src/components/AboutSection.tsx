@@ -35,7 +35,7 @@ const AboutSection = () => {
     {
       name: 'Syrelle Joy P. Reforma',
       role: 'Data Scientist | Web Developer',
-      description: "Hi I'm Syrelle, a 3rd-year BS Computer Science student from UP Diliman interested in software development and UI/UX design. This capstone also sparked my passion for data science particularly in data collection adn modeling, and I hope to use these skills to contribute meaningfully to the community.",
+      description: "Hi I'm Syrelle, a 3rd-year BS Computer Science student from UP Diliman interested in software development and UI/UX design. This capstone also sparked my passion for data science particularly in data collection and modeling, and I hope to use these skills to contribute meaningfully to the community.",
       avatar: sjprImage,
       initials: 'SJPR',
       links: {
